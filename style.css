@@ -76,8 +76,8 @@
 .inner_item:nth-child(9){
     grid-area: i;
     border: 3px solid black;
-    grid-template-columns: 50px;
-    grid-template-rows: 110px;
+    grid-template-columns: 300px;
+    grid-template-rows: 100px;
 }
 
 /* .inner_item:nth-child(1) .flex_container{  요놈도 가능, container는 가독성 목적*/
@@ -88,4 +88,8 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
+}
+
+#howMuch {
+    
 }
